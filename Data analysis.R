@@ -1,9 +1,13 @@
 rm(list = ls())
 
-##################
-# CCES Analysis ##
-##################
-ccesdisaster <- read.csv("C:/Users/wooki/Desktop/cces_final.csv")# - done
+##############################################################################################################################
+# This is R file for analyzing the effect of presidential disaster declaration on voters.
+##############################################################################################################################
+# Are voters retrospective and attentive? If so, in what condition and to what extent are voters retrospective and attentive? 
+# In the context of natural disaster and presidential disaster declaration, 
+# I find that voters punish incumbent president for severe weather damage and reward him for disaster declaration to help them 
+# by using individual level analysis with 2010-2014 CCES panel data.
+##############################################################################################################################ccesdisaster <- read.csv("C:/Users/wooki/Desktop/cces_final.csv")# - done
 ccesdisaster <- ccesdisaster[,-c(1,2)]
 names(ccesdisaster)
 
