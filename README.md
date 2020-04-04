@@ -60,7 +60,7 @@ I start my analysis with a simple linear model, followed by non-linear closed-fo
 The block model is basically OLS. The dependent variable is Republican advantage vote share (Republican vote share – Democrat vote share). The main explanatory variable is logged Republican advantage advertisements (log of number of Republican ad plus 1 - log of number of Democrat ad plus 1) representing net advertising difference between Republican and Democrat candidates. One of the block models that I used is:
 
 <p align="center">
-<img src="graphs/block.PNG" width="400" //>
+<img src="graphs/blcok.PNG" width="400" //>
 </p>
 
 From block models, I found strong patterns of decaying effects, and the patterns imply possible application of more sophisticated closed-form decay models with finer-grained decay patterns of daily advertising. 
