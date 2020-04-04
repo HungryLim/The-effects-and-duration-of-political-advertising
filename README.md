@@ -16,14 +16,6 @@ In the only other study of duration of advertising effects, Hill et al. (2013) a
 As Caughey and Sekhon (2011) summarize and Enos and Hersh (2015) point out, close elections are different from other elections in many aspects, and they have some distinctive characteristics. However, the main reason that I need to focus on competitive races (battlegrounds) to study advertising effects is these races are where the “real” campaigns and campaign advertising exist and the election outcomes of the states where they have strong partisanship regardless of advertising. To examine effects of campaigns, particularly campaign advertising, I need to study the races where the “real” campaigns ran from both candidates and the both candidates have a feasible chance to win an election. As RealClearPolitics.com shows, about 40 percent (41 out of 103) of 2010, 2012 and 2014 Senate elections were safe seats. 
 
 
-<p align="center">
-<img src="graphs/g1.png" width="400" //>
-</p>
- 
-
-<p align="center">
-<img src="graphs/g2.png" width="400" //>
-</p>
  
 # Overview of data
 However, is it really true that there is a notable difference in activeness of campaigns including advertising between competitive and uncompetitive elections? Therefore, I briefly examine the relationships between competitiveness of elections and activeness of campaigns. There are several indicators that can be used as a measurement of campaign intensity, although it is difficult to “measure” campaign intensity. Westlye studies Senate elections and campaign intensity, and he argues that margin of victory, quantity of news coverage, volume of advertising, candidate’s expenditure and Congressional Qaurterly’s evaluations can be used as a measurement of campaign intensity (1991). However, in this paper, I use state partisanship as Cook Partisan Voting Index (Cook PVI) for a proxy to represent competitiveness of an election and total volume of TV ads in all candidates during general elections for the Senate to show campaign intensity.
