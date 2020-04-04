@@ -20,7 +20,7 @@ As Caughey and Sekhon (2011) summarize and Enos and Hersh (2015) point out, clos
 # Overview of data
 However, is it really true that there is a notable difference in activeness of campaigns including advertising between competitive and uncompetitive elections? Therefore, I briefly examine the relationships between competitiveness of elections and activeness of campaigns. There are several indicators that can be used as a measurement of campaign intensity, although it is difficult to “measure” campaign intensity. Westlye studies Senate elections and campaign intensity, and he argues that margin of victory, quantity of news coverage, volume of advertising, candidate’s expenditure and Congressional Qaurterly’s evaluations can be used as a measurement of campaign intensity (1991). However, in this paper, I use state partisanship as Cook Partisan Voting Index (Cook PVI) for a proxy to represent competitiveness of an election and total volume of TV ads in all candidates during general elections for the Senate to show campaign intensity.
 
-As shown in the below figure, there is a clear negative relationship between partisanship and total volume of TV advertisements\footnote{I used absolute values of Cook PVI for each state: Hawaii’s 2014 Cook PVI is D+20 and Wyoming’s 2010 Cook PVI is R+20. In Figure 1, they are both 20 in the X axis.). Dependent variable which is the volume of ads is logged sum of entire advertising for general elections.}. It strongly implies that there is a negative relationship between electoral competitiveness and campaign activeness. In other words, competitive races are more likely to have active campaigns, and races for safe seats are unlikely to have active campaigns. 
+As shown in the below figure, there is a clear negative relationship between partisanship and total volume of TV advertisements. It strongly implies that there is a negative relationship between electoral competitiveness and campaign activeness. In other words, competitive races are more likely to have active campaigns, and races for safe seats are unlikely to have active campaigns. 
 
 <p align="center">
 <img src="graphs/g1.png" width="800" //>
@@ -44,7 +44,7 @@ The below figure shows the average Republican advantage advertisement during cam
 The below figure shows some competitive races’ dynamics of advertising during campaigns, illustrating on daily basis. In the next section, I discuss in detail the models and variables.  
 
 <p align="center">
-<img src="graphs/g4.png" width="800" //>
+<img src="graphs/g4.png" width="850" height="500"  //>
 </p>
 
 # Method
