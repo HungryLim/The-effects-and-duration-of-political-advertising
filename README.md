@@ -4,7 +4,7 @@ Television advertising is the mainstay form of communication in most major elect
 
 To answer this question, I have conducted a time series analysis of 901 polls conducted in the general election phase of 54 Senate elections in 2010, 2012 and 2014. My results provide the strongest support to date for the view that the effects of typical advertising in subnational elections – that is, elections below the level of president – decay rapidly.
 
-The R file for decay models can be found [here](https://github.com/HungryLim/The-effects-and-duration-of-political-advertising/blob/master/decaymodel.R). Anohter model example for electoral behavior analysis can be found [here](https://github.com/HungryLim/The-effects-and-duration-of-political-advertising/blob/master/Data%20analysis.R).
+* The R file for decay models can be found [here](https://github.com/HungryLim/The-effects-and-duration-of-political-advertising/blob/master/decaymodel.R). Anohter model example for electoral behavior analysis can be found [here](https://github.com/HungryLim/The-effects-and-duration-of-political-advertising/blob/master/Data%20analysis.R).
 
 # Short-lived effects of mass communication
 
