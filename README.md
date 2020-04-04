@@ -21,7 +21,7 @@ However, is it really true that there is a notable difference in activeness of c
 As shown in the below figure, there is a clear negative relationship between partisanship and total volume of TV advertisements\footnote{I used absolute values of Cook PVI for each state: Hawaii’s 2014 Cook PVI is D+20 and Wyoming’s 2010 Cook PVI is R+20. In Figure 1, they are both 20 in the X axis.). Dependent variable which is the volume of ads is logged sum of entire advertising for general elections.}. It strongly implies that there is a negative relationship between electoral competitiveness and campaign activeness. In other words, competitive races are more likely to have active campaigns, and races for safe seats are unlikely to have active campaigns. 
 
 <p align="center">
-<img src="graphs/g1.png" width="400" //>
+<img src="graphs/g1.png" width="800" //>
 </p>
 
 
@@ -35,14 +35,14 @@ The final version of ad variable is logged Republican advantage advertisement. T
 The below figure shows the average Republican advantage advertisement during campaigns by election years. Near actual elections, it seems that there are more ads. I divide campaign period into three to represent advertising volume (Republican advertisement advantage) over time. Negative value of Republican advertising advantage means that Democrat candidate has advertising advantage. The gap between candidates is at most about 3 logged advertisements on average; hence, one side is not dominating in terms of advertising. 
 
 <p align="center">
-<img src="graphs/g3.png" width="400" //>
+<img src="graphs/g3.png" width="800" //>
 </p>
 
 
 The below figure shows some competitive races’ dynamics of advertising during campaigns, illustrating on daily basis. In the next section, I discuss in detail the models and variables.  
 
 <p align="center">
-<img src="graphs/g4.png" width="400" //>
+<img src="graphs/g4.png" width="800" //>
 </p>
 
 # Method
@@ -61,7 +61,7 @@ The next strategy to identify the effect of advertising is more sophisticated cl
 Decay model examine how well the data fits a given function, and the results are estimated parameters of ad impact and decay rate. Closed-form decay models in this paper are Exponential, Weibull and Power models, as used by Hill et al. (2013). I test all three models to check whether the models fit the data well. However, I select Weibull model as my main model, which is the median model among the three to analyze outcomes in detail. Same as block models, decay models’ dependent variable is Republican advantage vote share, and the main explanatory variable is Republican advantage ads. The below table shows the decay models with several parameters, specifically, “k” is an intercept, “g” is state partisanship (Republican presidential vote share – Democrat presidential vote share), and “i” is the initial impact of advertising on the day of advertising. The initial impact “i” decays over time by the rate of “d”, which is a decay rate of initial impact over time “t”. 
 
 <p align="center">
-<img src="graphs/decayformula.PNG" width="400" //>
+<img src="graphs/decayformula.PNG" width="600" //>
 </p>
 
 
@@ -70,7 +70,7 @@ Decay model examine how well the data fits a given function, and the results are
 Block models can show general patterns of advertising effect decay. The ad variables represent the sum of net difference of logged ads in the period described.
 
 <p align="center">
-<img src="graphs/blockout.PNG" width="400" //>
+<img src="graphs/blockout.PNG" width="800" //>
 </p>  
 
 In column 1, there are two groups (blocks) of ads. The results show that the sum of advertising 2 days before polls have statistically significant effects (three days including the day of polling) while the remaining ad blocks, the sum of advertising from 3 days before polls to 30 days before polls have no significant effects. In every different combinations of different ad blocks, ads more than a week before elections do not have significant effects on polls and elections. It implies that advertising a week before elections is not effective. The main takeaway from the decay model can be found from column 4: advertising a day before is only effective. It means advertising effect decays “very” quickly. 
@@ -89,7 +89,7 @@ Table 5 shows the outcomes of the accumulated data of 2010, 2012 and 2014. There
 We could compare three models (Exponential, Power and Weibull) with their log-likelihood. Among three, Power model shows the best fit, but their differences are marginal. Exponential model shows stable statistical significance in all estimated parameters at 0.05 level and the next is power model. Weibull model holds statistical significance in decay parameter, but initial ad impact parameter’s standard errors include zero. Although Weibull model does not hold statistical significance in all parameters, as stated, I chose Weibull model to explain my findings because it is the median among three models. 
   
 <p align="center">
-<img src="graphs/g5.png" width="400" //>
+<img src="graphs/g5.png" width="600" //>
 </p>
 
 
@@ -106,7 +106,7 @@ There are three important findings in the context of campaigns. First, as Hill e
 An exemplary real word case can be the Republican nomination in Michigan 4th district 2014. A millionaire candidate, Paul Mitchell outspent John Moolenaar about \$3.65 million to \$1.25 million, but Mitchell lost in the election. The interesting point is Mitchell had advertised starting from early campaign which is April, but Moolenaar started advertising in the mid July which is less than a month before the election date. A poll conducted by Practical EPIC-MRA on July 12th to 13th shows that Paul Mitchell (50\%) is ahead of Moolenaar (23\%) by 27 percent, and this is a big margin. However, the actual election outcome was the opposite. There can be many stories and other factors behind this surprising election outcome. For instance, it was a primary not a general election and there were different groups behind of these two candidates in that Mitchell was a Tea party candidate and Moolenaar was the Chamber of Commerce candidate. However, one of the most important points is, early advertising is ineffective, so Mitchell wasted lots of money in early campaigning. As figure 8 shows, from April 29th to July 10th, Mitchell spent \$ 0.87 million that is about 40\% of his total spending on TV advertising but Moolenaar spent “nothing”. Starting from July 10th, Moolenaar began his advertising.\footnote{I used the daily estimated cost of advertising made by Wesleyan Media Project for spending of advertising.} Therefore, as my finding argues, less-funded candidates could have a chance to defeat well-funded candidates by spending money strategically. However, more studies are required to understand the rapid decay of advertising effects in different settings and conditions. 
 
 <p align="center">
-<img src="graphs/g7.png" width="400" //>
+<img src="graphs/g7.png" width="600" //>
 </p>
 
 Second, advertising has significant effects on competitive races. Campaign advertising itself could not change the outcomes of elections probably in most cases. It is most likely because there are many safe seats in U.S. subnational elections, and the races for these safe seats are not accompanied with active campaigns. More than a half of U.S. Senate elections in 2010, 2012 and 2014 were safe seats. It is an empirical and theoretical question whether uncompetitive races and vanishing marginals in elections mean the declines of healthy vigorous democracy or not; however, competitive campaigns and elections are an important feature of democracy (Barrilleaux, Holbrook, and Langer 2002; Enos and Hersh 2015; Fiorina 1977; Holbrook and Dunk 1993; Mayhew 1974; Squire 2000). In competitive subnational races, my findings show that advertising has short-lived but substantial effects on winning votes. However, one could argue that my findings have limitations in that I “only” study competitive races accompanied with active campaigns. Indeed, in many uncompetitive races, campaign advertising may not have significant effects. It is because competitive elections have several important features. The competitive races have real campaigns and more media coverage; voters could be more mobilized and have better knowledge about the elections, and show higher turnout (Geys 2006; Jackson 1996; Sides, Brady, and Johnston 2006; Stone, Maisel, and Maestas 2004; M. C. Westlye 1983). In this regard, my findings may not be applied to uncompetitive races where the winners of races are almost predetermined without proper campaigns. However, I argue that those uncompetitive races cannot be a good subject for a study of campaign and campaign advertising simply because they are not there.
